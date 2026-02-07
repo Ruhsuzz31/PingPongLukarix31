@@ -1,0 +1,28 @@
+{
+  "name": "pong-realtime",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "pong",
+    "multiplayer",
+    "real-time",
+    "websockets",
+    "nodejs",
+    "game",
+    "express"
+  ],
+  "author": "dan-berolsky",
+  "license": "ISC",
+  "description": "Pong Realtime es un juego multijugador en línea basado en el clásico Pong, desarrollado con WebSockets para la sincronización en tiempo real entre jugadores.",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
